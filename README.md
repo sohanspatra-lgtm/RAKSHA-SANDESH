@@ -1,20 +1,30 @@
-# RAKSHA-SANDESH
-RAKSHA SANDESH is an AI-powered digital safety platform that detects online scams, phishing links, and suspicious messages using AI, ML, and OCR. It promotes cyber awareness, explains potential threats, and guides users toward safer digital practices.
-RAKSHA SANDESH – AI-Powered Digital Safety & Cybercrime Awareness Platform
-RAKSHA SANDESH is an AI-powered digital safety platform designed to help individuals identify, understand, and protect themselves from online threats, cybercrime, and digital fraud. The platform aims to make cybersecurity awareness accessible to everyone by combining Artificial Intelligence, Machine Learning, OCR, and real-time threat analysis.
+# RAKSHA SANDESH - AI Digital Guardian
+> "Read it. Understand it. Stay protected."
+> "Read it. Understand it. Stay protected."
 
-It allows users to check suspicious messages, URLs, screenshots, and digital content to identify potential scams, phishing attempts, fraudulent activities, and misleading information. Using AI-based text classification and image-based text extraction (OCR), the system analyzes submitted evidence and provides easy-to-understand explanations of potential threats, along with preventive measures and recommended actions.
+RAKSHA SANDESH is an AI-powered scam detection and cyber defense platform tailored specifically for elderly users and families in India.
 
-The platform also aims to simplify cybercrime awareness by providing relevant information about cyber laws, reporting procedures, and digital safety practices through an interactive and user-friendly interface.
+## Key Features
+1. **Scam Message Detector**: 0-100 Risk Score, high-contrast senior badges, plain language "WHY" and "WHAT SHOULD YOU DO" in English & Hindi.
+2. **Scam Story Reconstruction**: Multi-message WhatsApp/SMS conversation timeline (5 stages).
+3. **Scam Intent Detector**: Identifies goal (Steal OTP, Fake KYC, Fake Electricity Bill, Lottery Fraud, etc.).
+4. **Scammer Persona Detector**: Uncovers claimed authority (Bank Employee, Police, Electricity Officer, etc.).
+5. **Attack Chain Detector**: Visual node graph mapping the entire scam anatomy.
+6. **What-If Simulator**: Interactive step-by-step nightmare scenario simulation.
+7. **Voice Guardian**: Speech-to-Text input & Text-to-Speech audio read-aloud.
+8. **Family Guardian ("PROTECT ME")**: Simulated emergency alert for family contacts.
+9. **Community Scam Radar**: Active scam campaigns in India with report counts & submission form.
+10. **Screenshot Scanner**: Browser OCR with sample screenshots for 1-click test.
+11. **Link Inspector**: Homograph, fake TLD, shortener, and brand spoofing analysis.
+12. **Personal Scam Risk Profile**: Category vulnerability meter & senior safety rules.
 
-Key Features:
-- AI-Based Threat Detection: Identifies suspicious messages and potential online scams.
-- Phishing URL Detection: Analyzes URLs to identify potentially malicious websites.
-- OCR-Based Screenshot Analysis: Extracts text from screenshots and examines it for fraudulent content.
-- Evidence Explanation: Explains why particular content may be suspicious.
-- Cyber Law Awareness: Provides information about relevant cyber laws and user rights.
-- Cybercrime Reporting Guidance: Helps users understand how and where to report cybercrime.
-- Digital Safety Recommendations: Suggests preventive measures to improve online security.
-Objective: To create a smart, accessible, and user-friendly digital safety ecosystem that empowers people to recognize cyber threats, make informed decisions, and stay protected in an increasingly digital world.
+## How to Run
+```bash
+python run.py
+```
+Access the application at http://127.0.0.1:8080/
 
-Tagline: Awareness Today, Protection Tomorrow.
+## Automated Tests
+```bash
+python backend/tests/test_engine.py
+```
